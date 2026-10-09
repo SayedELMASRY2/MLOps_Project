@@ -1,0 +1,32 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+venv/
+env/
+.venv/
+mlops-env/
+
+# MLflow local execution tracking & database
+mlruns/
+*.db
+.trash/
+
+# OS and Editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local submission docs & media (kept local, excluded from Git)
+screenshots/
+*.docx
+SCREENSHOTS_GUIDE.md
+generate_report.py
+export_model.py
+register_model.py
+.github/

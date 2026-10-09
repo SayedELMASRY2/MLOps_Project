@@ -1,0 +1,15 @@
+# Core Machine Learning & Tracking
+scikit-learn
+pandas
+numpy
+mlflow
+
+# API Serving
+fastapi
+uvicorn
+pydantic
+
+# Configuration & Testing
+pyyaml
+pytest
+httpx
