@@ -8,14 +8,13 @@ mlflow:
   experiment_name: "House_Price_Prediction"
   model_name: "California_Housing_Predictor"
   alias: "staging"
-  tracking_uri: null # defaults to local file store
+  tracking_uri: null 
 
 data:
   test_size: 0.2
   random_state: 42
 
 experiments:
-  # Assignment Baseline Experiments (Required by Task #37)
   - run_name: "Run 1"
     algorithm: "GradientBoosting"
     feature_engineering: false
@@ -32,7 +31,6 @@ experiments:
     max_depth: 7
     learning_rate: 0.01
 
-  # High-Performance Optimized Experiment (Domain Features + Tuned HistGradientBoosting)
   - run_name: "Run 4 (Optimized)"
     algorithm: "HistGradientBoosting"
     feature_engineering: true
